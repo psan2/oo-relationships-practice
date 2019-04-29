@@ -12,6 +12,6 @@ class Location
     end
 
     def self.least_clients
-        all.min_by { |location| ClientLocation.by_location(location).length }
+        all.min_by { |location| Appointment.by_location(location).length }
     end
 end

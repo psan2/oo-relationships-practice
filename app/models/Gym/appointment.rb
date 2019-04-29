@@ -1,4 +1,4 @@
-class ClientLocation
+class Appointment
     attr_reader :client, :location
     @@all = []
 
